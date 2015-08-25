@@ -2,7 +2,7 @@ defmodule Exerciser.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  # channel "rooms:*", Exerciser.RoomChannel
+  channel "rooms:*", Exerciser.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
